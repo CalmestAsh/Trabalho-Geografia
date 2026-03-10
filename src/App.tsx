@@ -60,7 +60,7 @@ export default function App() {
       {/* ═══════ SLIDE 1: HERO ═══════ */}
       <section id="hero" className="slide">
         <div className="slide-half img-half">
-          <img src="/assets/hero_bg.png" alt="Seul" className="cover-img" />
+          <img src="./assets/hero_bg.png" alt="Seul" className="cover-img" />
           <div className="img-overlay" />
           <div className="flag-float">
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="Bandeira" />
@@ -90,7 +90,7 @@ export default function App() {
       {/* ═══════ SLIDE 2: IDENTIDADE ═══════ */}
       <section id="identidade" className="slide reverse">
         <div className="slide-half img-half">
-          <img src="/assets/palace_bg.png" alt="Palácio em Seul" className="cover-img" />
+          <img src="./assets/palace_bg.png" alt="Palácio em Seul" className="cover-img" />
         </div>
         <div className="slide-half content-half bg-white">
           <motion.div className="inner-content" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -130,7 +130,7 @@ export default function App() {
       {/* ═══════ SLIDE 3: DADOS ═══════ */}
       <section id="dados" className="slide">
         <div className="slide-half img-half">
-          <img src="/assets/port_bg.png" alt="Porto industrial" className="cover-img" style={{ filter: 'grayscale(40%) contrast(1.1)' }} />
+          <img src="./assets/port_bg.png" alt="Porto industrial" className="cover-img" style={{ filter: 'grayscale(40%) contrast(1.1)' }} />
         </div>
         <div className="slide-half content-half bg-dark">
           <motion.div className="inner-content" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -250,7 +250,7 @@ export default function App() {
       {/* ═══════ SLIDE 6: INDÚSTRIA ═══════ */}
       <section id="industria" className="slide reverse">
         <div className="slide-half img-half">
-          <img src="/assets/industry_bg.png" alt="Fábrica de semicondutores" className="cover-img" style={{ filter: 'brightness(0.85) contrast(1.15)' }} />
+          <img src="./assets/industry_bg.png" alt="Fábrica de semicondutores" className="cover-img" style={{ filter: 'brightness(0.85) contrast(1.15)' }} />
         </div>
         <div className="slide-half content-half bg-dark">
           <motion.div className="inner-content" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -283,7 +283,7 @@ export default function App() {
       {/* ═══════ SLIDE 7: CONCLUSÃO ═══════ */}
       <section id="conclusao" className="slide">
         <div className="slide-half img-half">
-          <img src="/assets/hero_bg.png" alt="Seul à noite" className="cover-img" style={{ filter: 'saturate(1.3)' }} />
+          <img src="./assets/hero_bg.png" alt="Seul à noite" className="cover-img" style={{ filter: 'saturate(1.3)' }} />
         </div>
         <div className="slide-half content-half bg-gradient-end">
           <motion.div className="inner-content" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
